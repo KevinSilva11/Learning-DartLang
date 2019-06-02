@@ -3,16 +3,16 @@ void main(){
 
   switch(status){
     case 'Aberto':
-    print('O seu pedido esta aberto');
-    break;
+      print('O seu pedido esta aberto');
+      break;
     case 'A caminho':
-    print('Seu pedido esta a caminho');
-    break;
+      print('Seu pedido esta a caminho');
+      break;
     case 'Entregue':
-    print('Seu peddo foi entregue com sucesso');
-    break;
+      print('Seu peddo foi entregue com sucesso');
+      break;
     default:
-    print('Status não encontrado');
+      print('Status não encontrado');
 
   }
 }
